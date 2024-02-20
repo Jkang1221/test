@@ -44,6 +44,10 @@ public class quickSort3 {
         }
         swap(nums, lt, left);
         partitionRevision3(nums, left, lt - 1);
+        System.out.println(lt);
+        System.out.println(rt);
+        System.out.println("11111");
+        System.out.println("11111");
         partitionRevision3(nums, rt, right);
     }
 

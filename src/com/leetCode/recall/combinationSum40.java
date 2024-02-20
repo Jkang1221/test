@@ -4,8 +4,8 @@ import java.util.*;
 
 public class combinationSum40 {
     public static void main(String[] args) {
-        int[] nums = new int[]{10,1,2,7,6,1,5};
-        int target = 8;
+        int[] nums = new int[]{2,5,2,1,2};
+        int target = 5;
         System.out.println(combinationSum2(nums, target).toString());
     }
     public static List<List<Integer>> combinationSum2(int[] candidates, int target) {
